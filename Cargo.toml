@@ -1,0 +1,6 @@
+[package]
+authors = ["Mark Simulacrum <mark.simulacrum@gmail.com>"]
+name = "association-rust-history"
+version = "0.1.0"
+[dependencies]
+graphmap = "*"

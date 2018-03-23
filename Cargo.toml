@@ -2,5 +2,14 @@
 authors = ["Mark Simulacrum <mark.simulacrum@gmail.com>"]
 name = "association-rust-history"
 version = "0.1.0"
+
 [dependencies]
-graphmap = "*"
+petgraph = "0.4.11"
+failure = "0.1.1"
+chrono = { version = "0.4.0", features = ["serde"] }
+git2 = "0.7.0"
+env_logger = "0.5.6"
+log = "0.4.1"
+serde = "1.0.33"
+bincode = "1.0.0"
+serde_derive = "1.0.33"

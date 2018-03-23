@@ -145,6 +145,10 @@ fn run() -> Result<(), Error> {
         "allowed breakage per week: {}",
         allowed_sync_points_per_week
     );
+    eprintln!(
+        "permitted breakage probabilty: 1 sync in {:.01} days",
+        1.0 / (probability * (last_week as f64)) * 7.0
+    );
     eprintln!("permitted breakage probabilty: {}", probability);
 
     for dirs in &dirs {
